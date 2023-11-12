@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
+import { Logo } from './Logo';
 import { Background } from '../background/Background';
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
 
 const Hero = () => (
   <Background color="page-green">

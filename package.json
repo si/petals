@@ -15,10 +15,10 @@
   },
   "dependencies": {
     "classnames": "^2.3.1",
-    "next": "^12.0.9",
+    "next": "^14.0.2",
     "next-seo": "^4.29.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "styled-jsx-plugin-postcss": "^4.0.1"
   },
   "devDependencies": {
@@ -33,7 +33,7 @@
     "eslint": "^8.7.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
-    "eslint-config-next": "^12.0.9",
+    "eslint-config-next": "^14.0.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",

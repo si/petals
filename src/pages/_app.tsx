@@ -13,7 +13,6 @@ function CustomApp({ Component, pageProps }: AppProps) {
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
-
       <Script id="GoogleAnalyticsInit" strategy="lazyOnload">
         {`
                     window.dataLayer = window.dataLayer || [];
@@ -24,6 +23,16 @@ function CustomApp({ Component, pageProps }: AppProps) {
                     });
                 `}
       </Script>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossOrigin="true"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Gaegu:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
 
       <Head>
         <title>Welcome!</title>

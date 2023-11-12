@@ -1,7 +1,7 @@
-import { Meta } from '../layout/Meta';
-import { AppConfig } from '../utils/AppConfig';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
+import { Meta } from '../layout/Meta';
+import { AppConfig } from '../utils/AppConfig';
 
 type BaseProps = {
   children: React.ReactNode;
