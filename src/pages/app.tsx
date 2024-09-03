@@ -10,7 +10,7 @@ const AppPage = () => (
         <h1 className="text-4xl font-gaegu text-center mb-6">
           Get free access to the PETALS web app for 6 months
         </h1>
-        <p className="my-5 text-2xl">
+        <p className="my-5 text-xl">
           Get exclusive early access to the PETALS web app, 
           created to streamline and simplify the framework
           for your teams.
