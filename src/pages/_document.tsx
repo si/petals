@@ -6,9 +6,9 @@ import { AppConfig } from '../utils/AppConfig';
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang={AppConfig.locale}>
+      <Html lang={AppConfig.locale} data-theme="cyberpunk">
         <Head />
-        <body>
+        <body className="prose lg:prose-xl">
           <Main />
           <NextScript />
         </body>

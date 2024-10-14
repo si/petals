@@ -3,7 +3,7 @@ import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
-  <Background color="bg-purple-300">
+  <Background color="">
     <Section
       id="How"
       title="How does PETALS work?"

@@ -2,7 +2,7 @@ import { Background } from '../background/Background';
 import { Section } from '../layout/Section';
 
 const Privacy = () => (
-  <Background color="bg-amber-300">
+  <Background color="">
     <Section id="Privacy">
       <div className="">
         <h1 className="text-4xl font-gaegu">Privacy Policy</h1>

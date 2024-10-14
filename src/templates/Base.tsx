@@ -9,7 +9,7 @@ type BaseProps = {
 
 const Base = (props: BaseProps) => {
   return (
-    <div className="antialiased text-gray-800 text-sm font-mono">
+    <div className="antialiased">
       <Meta title={AppConfig.title} description={AppConfig.description} />
       <Hero />
       {props.children}

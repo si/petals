@@ -24,14 +24,12 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
 
   return (
     <div className={verticalFeatureClass}>
-      <div className="w-full sm:w-1/2 text-center sm:px-6">
-        <h3 className="text-3xl text-gray-900 font-gaegu font-semibold">
-          {props.title}
-        </h3>
-        <div className="mt-6 leading-9">{props.description}</div>
+      <div className="">
+        <h3 className="">{props.title}</h3>
+        <div className="">{props.description}</div>
       </div>
 
-      <div className="w-full sm:w-1/2 p-6">
+      <div className="">
         <img src={`${router.basePath}${props.image}`} alt={props.imageAlt} />
       </div>
     </div>
