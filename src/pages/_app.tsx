@@ -5,8 +5,12 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
-
+import { PostHogProvider } from 'posthog-js/react';
 import '../styles/global.css';
+
+const options = {
+  api_host: process.env.REACT_APP_PUBLIC_POSTHOG_HOST,
+};
 
 function CustomApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -53,8 +57,12 @@ function CustomApp({ Component, pageProps }: AppProps) {
         <title>Welcome!</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
-
-      <Component {...pageProps} />
+      <PostHogProvider
+        apiKey={process.env.REACT_APP_PUBLIC_POSTHOG_KEY}
+        options={options}
+      >
+        <Component {...pageProps} />
+      </PostHogProvider>
     </>
   );
 }
